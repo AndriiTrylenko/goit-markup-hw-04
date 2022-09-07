@@ -121,7 +121,8 @@ ul {
 }
 
 .menu-contacts {
-
+display: flex;
+align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -138,7 +139,7 @@ ul {
     margin-right: 10px;
 }
 
-.smartphone{
+.phone{
     fill: currentColor;
     width: 10px;
     height: 16px;
