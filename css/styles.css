@@ -359,6 +359,8 @@ align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+/*--Соціальні мережі--*/
+
 .collection-icon{
     display: flex;
     justify-content: center;
@@ -373,7 +375,6 @@ align-items: center;
 }
 .icon-link{
 display: flex;
-color: currentColor;
 justify-content: center;
 align-items: center;
 width: 44px;
@@ -387,10 +388,10 @@ cursor: pointer;
     fill: currentColor;
     width:20px;
     height: 20px;
+    cursor: pointer;
     
 }
 .icon-link:hover,
-.icon-link:focus,
 .icon-link:active {
     color: var(--secondary-text-color);
     fill: var(--secondary-text-color);
