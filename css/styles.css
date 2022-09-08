@@ -390,6 +390,7 @@ cursor: pointer;
     
 }
 .icon-link:hover,
+.icon-link:focus,
 .icon-link:active {
     color: var(--secondary-text-color);
     fill: var(--secondary-text-color);
