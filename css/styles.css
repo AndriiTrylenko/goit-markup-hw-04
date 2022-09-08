@@ -66,6 +66,7 @@ ul {
 
 .logo-black {
     color: var(--title-text-color);
+    margin-right: 93px;
 }
 
 /*-----Nav-------*/
@@ -92,7 +93,7 @@ ul {
 
 .mn {
     display: flex;
-    margin-left: 93px;
+    
 
 }
 
@@ -357,6 +358,42 @@ align-items: center;
 .association-team {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.collection-icon{
+    display: flex;
+    justify-content: center;
+}
+.team-icon{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.team-icon:last-child{
+    margin-right: 0;
+}
+.icon-link{
+display: flex;
+color: currentColor;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+color: #afb1b8;
+border-radius: 50%;
+text-decoration: none;
+cursor: pointer;
+}
+.icon{
+    fill: currentColor;
+    width:20px;
+    height: 20px;
+    
+}
+.icon-link:hover,
+.icon-link:active {
+    color: var(--secondary-text-color);
+    fill: var(--secondary-text-color);
+    background-color: var(--accent-color);
 }
 
 /*--підвал--*/
