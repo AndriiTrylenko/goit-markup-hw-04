@@ -133,7 +133,6 @@ align-items: center;
 
 
 .envelope{
-    
     fill:currentColor;
     width: 16px;
     height: 12px;
@@ -233,7 +232,7 @@ align-items: center;
 
 }
 
-    .item-sub::before {
+.item-sub::before {
             display: block;
             content: '';
             height: 120px;
@@ -351,6 +350,7 @@ align-items: center;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 
     color: var(--primary-text-color);
 }
@@ -364,6 +364,7 @@ align-items: center;
 .collection-icon{
     display: flex;
     justify-content: center;
+       
 }
 .team-icon{
     display: flex;
@@ -381,15 +382,12 @@ width: 44px;
 height: 44px;
 color: #afb1b8;
 border-radius: 50%;
-text-decoration: none;
-cursor: pointer;
 }
 .icon{
     fill: currentColor;
     width:20px;
     height: 20px;
     cursor: pointer;
-    
 }
 .icon-link:hover,
 .icon-link:active {
@@ -441,6 +439,19 @@ cursor: pointer;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     ;
+}
+/*--Footer join in--*/
+.join {
+    margin-left: 156px;
+    margin-top: 72px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--secondary-text-color)
+
+
 }
 
 
