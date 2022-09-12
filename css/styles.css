@@ -422,25 +422,24 @@ padding-top: 50px;
     
 }
 /*--підвал--*/
-.footer-logo {
-margin-bottom: 20px;
-}
-
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--secondary-bgd-color);
-
 }
 
+.footer-logo {
+    margin-bottom: 20px;
+}
 
 .logo-wight {
     color: var(--secondary-text-color);
     
 }
 
+
 .contacts-items {
-display: flex;
+    margin-right: 70px;
     margin-bottom: 9px;
 }
 
@@ -449,7 +448,7 @@ display: flex;
 }
 
 .adress {
-    margin-right: 70px;
+    
     font-style: normal;
     font-size: 14px;
     line-height: 2;
@@ -467,8 +466,11 @@ display: flex;
     ;
 }
 /*--Приєднуйтесь--*/
-.icon-social-footer{
-display: flex;
+.footer-container{
+    
+    display: flex;
+    justify-self: start;
+    align-items: flex-start;
 }
 
 .join {
@@ -480,14 +482,30 @@ display: flex;
     text-transform: uppercase;
     color: var(--secondary-text-color);
     margin-bottom: 20px
-
-
 }
 
 .join-in-footer {
 display: flex;
 }
 
+.icon-footer-link{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.icon-footer-link:hover,
+.icon-footer-link:focus,
+.icon-footer-link:active {
+    background-color: var(--accent-color);
+}
 
 /* Portfolio CSS */
 .size-portfolio {
