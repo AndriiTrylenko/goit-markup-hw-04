@@ -122,8 +122,9 @@ ul {
 }
 
 .menu-contacts {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -229,48 +230,43 @@ align-items: center;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
-
 }
 
 .item-sub::before {
-            display: block;
-            content: '';
-            height: 120px;
-            background-color: #f5f4fa;
-            margin-bottom: 30px;
-        }
+    display: block;
+    content: '';
+    height: 120px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+}
     
-        .item-sub:nth-child(1)::before {
-            background-image: url(../images/antenna\ 1.svg);
-            background-size: 70px 70px;
-            background-position: center;
-            background-repeat: no-repeat;
+.item-sub:nth-child(1)::before {
+    background-image: url(../images/antenna\ 1.svg);
+    background-size: 70px 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
     
-        }
+.item-sub:nth-child(2)::before {
+    background-image: url(../images/clock\ 1.svg);
+    background-size: 70px 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
     
-        .item-sub:nth-child(2)::before {
-            background-image: url(../images/clock\ 1.svg);
-            background-size: 70px 70px;
-            background-position: center;
-            background-repeat: no-repeat;
+.item-sub:nth-child(3)::before {
+    background-image: url(../images/diagram\ 1.svg);
+    background-size: 70px 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
     
-        }
-    
-        .item-sub:nth-child(3)::before {
-            background-image: url(../images/diagram\ 1.svg);
-            background-size: 70px 70px;
-            background-position: center;
-            background-repeat: no-repeat;
-    
-        }
-    
-        .item-sub:nth-child(4)::before {
-            background-image: url(../images/astronaut\ 1.svg);
-            background-size: 70px 70px;
-            background-position: center;
-            background-repeat: no-repeat;
-    
-        }
+.item-sub:nth-child(4)::before {
+    background-image: url(../images/astronaut\ 1.svg);
+    background-size: 70px 70px;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
 
 
 /*--чим займаємось--*/
@@ -280,7 +276,6 @@ align-items: center;
 }
 
 .our-work .work-item {
-
     margin-left: 30px;
 }
 
@@ -291,8 +286,6 @@ align-items: center;
 .section-title {
     text-align: center;
     margin-bottom: 50px;
-
-
 
     font-weight: 700;
     font-size: 36px;
@@ -310,13 +303,10 @@ align-items: center;
 .team {
     text-align: center;
     background-color: #f5f4fa;
-
-
 }
 
 .our-team {
     display: flex;
-
 }
 
 .our-team .our-item {
@@ -324,7 +314,7 @@ align-items: center;
 
     width: 270px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+    0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
 }
@@ -375,13 +365,13 @@ align-items: center;
     margin-right: 0;
 }
 .icon-link{
-display: flex;
-justify-content: center;
-align-items: center;
-width: 44px;
-height: 44px;
-color: #afb1b8;
-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: #afb1b8;
+    border-radius: 50%;
 }
 .icon{
     fill: currentColor;
@@ -392,14 +382,48 @@ border-radius: 50%;
 .icon-link:hover,
 .icon-link:active {
     color: var(--secondary-text-color);
-    fill: var(--secondary-text-color);
+    fill: var(--primary-text-color);
     background-color: var(--accent-color);
 }
+/*--постійні клієнти--*/
+.constant-clients-head{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.clients{
+display: flex;
+padding-top: 50px;
 
+    
+}
+
+.clients :last-child {
+  margin-right: 0;
+}
+.constant-client {
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    border: 2px solid #AFB1B8;
+    display: flex;
+    width: 170px;
+    height: 90px;
+    margin-right: 30px;
+}
+.icon-regular{
+    display: flex;
+    width:106px;
+    fill: #757575;
+    
+}
+.icon-regular:hover,
+.icon-regular:active {
+    fill: var(--accent-color);
+    
+}
 /*--підвал--*/
 .footer-logo {
-    display: block;
-    margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .footer {
@@ -412,10 +436,11 @@ border-radius: 50%;
 
 .logo-wight {
     color: var(--secondary-text-color);
+    
 }
 
 .contacts-items {
-
+display: flex;
     margin-bottom: 9px;
 }
 
@@ -424,6 +449,7 @@ border-radius: 50%;
 }
 
 .adress {
+    margin-right: 70px;
     font-style: normal;
     font-size: 14px;
     line-height: 2;
@@ -440,18 +466,26 @@ border-radius: 50%;
     color: rgba(255, 255, 255, 0.6);
     ;
 }
-/*--Footer join in--*/
+/*--Приєднуйтесь--*/
+.icon-social-footer{
+display: flex;
+}
+
 .join {
-    margin-left: 156px;
-    margin-top: 72px;
-    font-style: normal;
+    display: flex;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.14;
     letter-spacing: 0.03em;
-    text-decoration: none;
-    color: var(--secondary-text-color)
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+    margin-bottom: 20px
 
 
+}
+
+.join-in-footer {
+display: flex;
 }
 
 
