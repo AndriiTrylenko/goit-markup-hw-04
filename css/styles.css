@@ -93,8 +93,6 @@ ul {
 
 .mn {
     display: flex;
-    
-
 }
 
 .mn .item:not(:last-child) {
@@ -389,10 +387,6 @@ ul {
     background-color: var(--accent-color);
 }
 /*--постійні клієнти--*/
-.constant-clients-head{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .clients{
 display: flex;
 list-style: none;
